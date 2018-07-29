@@ -63,8 +63,8 @@ Running tests for: $packageName
 ================================================================================
 """);
 
-  File stub = File("lib/${packageName}.dart");
-  File example = File("lib/example.dart");
+  File stub = new File("lib/${packageName}.dart");
+  File example = new File("lib/example.dart");
 
   try {
     stub = await stub.rename("lib/${packageName}.dart.bu");
